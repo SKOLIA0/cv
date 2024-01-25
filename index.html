@@ -1,78 +1,152 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Николай Слепченко</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/normalize.css"> 
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/index.css">
+<title>Резюме Слепченко Николай.</title> 
 </head>
+
 <body>
-  <div class="container">
-    <div class="row">  
-      <div class="six columns" style="padding-left: 20px;">
-        <h1>Николай Слепченко</h1>
-        <h4>
-          Программист Ruby on Rails
-        </h4>
-      </div>
-      <div class="six columns" style="padding-left: 20px;">
-        <p style="margin-top: 30px; margin-bottom: 5px;">
-          г. Калининград | +7 (963) 29-666-00 | 07.04.1990
-        </p>
-        <p>
-          <a href="mailto:skolia0@gmail.com">
-            <img src="images/mail_logo.png" alt="mailme" style="width:40px; height:40px;">
-          </a>
-          <a href="https://github.com/Skolia0" target="_blank">
-            <img src="images/gh_logo.png" alt="github profile" style="width:40px; height:40px;">
-          </a>
-          <a href="https://t.me/nikolajslep/" target="_blank">
-            <img src="images/tele_logo.png" alt="telegram" style="width:40px; height:40px;">
-          </a>
-        </p>
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col col-100 mb-2">
+      <h1>Слепченко Николай</h1>
+      <h2>Калининград</h2>
+      <p class="p-large p-center">Developer full-stack Ruby on Rails</p>
     </div>
-
-    <div class="row">  
-      <div class="four columns">
-        <h4>Обо мне</h4>
-         
-      </div>
-      <div class="eight columns">
-        <img src="images/cv_photo.jpg" alt="photo" class="u-max-full-width"/>  
-        <p>Живу в Калининграде,<br/> 
-        в 2021 году начал программировать на Ruby,<br/> 
-        коммерческий опыт разработки на RoR с ноября 2021.<br/>
-        США, Locallabs<br/>
-        Россия, ООО ИЦ АСК (Роскосмос)<br/>
-        Россия, ИНФОКОМ<br/>
-        Для связи со мной нажмите сверху на черную кнопку телеграмма.<br/>
-        </p>
-        <ul>Иностранные языки:
-          <li>английский а1</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row">  
-      <div class="four columns">
-        <h4>Навыки</h4>
-      </div>
-      <div class="eight columns">
-        <ul>
-          <li>Настройка и запуск сервера</li>
-          <li>Создание плагинов Redmine</li>
-          <li>Парсинг сторноних сайтов, в том числе государственных источников</li>
-          <li>MySQL, Postgresql и т.п.</li>
-          <li>Linux (Ubuntu, Mint,  CentOS)</li>
-          <li> Опыт работы инжинером 3 года</li>     
-        </ul>
-      </div>
-    </div>
-
-    
-    
   </div>
+
+  <div class="row">
+    <div class="col col-75">
+      <ul>   
+        <li>Дата рождения: 07.04.1990</li>
+        <li>Семейное положение: женат</li>
+        <li>Занятость: полная</li>
+        <li>Желаемая з/пл: 120 000 руб.</li>
+        <li>Знание английского языка: средний уровень</li>
+        <li>Навыки вождения: права категории В, имеется личный автомобиль.</li>
+        <li><a class="link" href="tel:+7(962)264-00-74">+7(963)-296-66-00</a></li>
+        <li><a class="link" href="mailto:solyannikolga@gmail.com"><em>skolia0@gmail.com</em></a></li> 
+        <li><a href="https://github.com/SKOLIA0">Github</a></li>
+        <li><a href="https://hh.ru/applicant/resumes/view?resume=f717f687ff09cdfe090039ed1f486b656b3337https://hh.ru/resume/9047c66aff08d8f72f0039ed1f6f364a687841">HeadHunter</a></li>
+      </ul>
+    </div>
+  
+    <div class="col col-25">
+      <img class="photo" src="pictures/cv_photo.jpg" alt="фото"> 
+    </div>
+  </div>
+
+  <div class="row mt">
+    <div class="col col-100">
+      <ins><h3>Образование</h3></ins>
+      <ul>
+        <li>
+          <a href="https://goodprogrammer.ru/">Хороший программист</a> - интенсив по Ruby on Rails
+          (13.09.2020 - 27.01.2021)
+        </li>
+        <li>БФУ им. И. Канта по специальности преподаватель истории (2009 - 2013)
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row mt">
+    <div class="col col-100">
+      <ins><h3>Профессиональные навыки</h3></ins>
+      <div class="row text-center mt">
+        <div class="col col-33">
+          <p class="button">Ruby</p>
+          <p>Работа с ООП, классами и гемами. Читаемый код - не пустой звук. Использую rbenv для установки нужной версии.</p>
+        </div>
+        <div class="col col-33">
+          <p class="button">Ruby on Rails</p>
+          <p>Следую соглашению REST по сценарию CRUD, опираясь на MVC.</p>
+        </div>
+        <div class="col col-33">
+          <p class="button">Frontend</p>
+          <p>HTML и CSS - основы веб-дизайна, понимаю как важен удобный интерфейс. Знаю как найти элемент на странице. </p>
+        </div>
+      </div>
+      
+      <div class="row text-center mt">
+        <div class="col col-33">
+          <p class="button">Ubuntu Linux</p>
+          <p>Настройка и администрирование системы.(проекты разворачиваю на виртуальных машинах)</p>
+        </div>
+        <div class="col col-33">
+          <p class="button">Bootstrap</p>
+          <p>Любой каприз за Ваши деньги.</p>
+        </div> 
+        <div class="col col-33">
+          <p class="button">RSpec</p>
+          <p>Сценарий работы приложения есть - полезно его потестить. </p>
+        </div>
+      </div>
+      
+      <div class="row text-center mt">
+        <div class="col col-33">
+          <p class="button">SQLite</p>
+          <p>Создаю, храню, перезаписываю данные.</p>
+        </div>  
+        <div class="col col-33">
+          <p class="button">PostgreSQL</p>
+          <p>На проде без него никуда.</p>
+        </div>
+          <div class="col col-33">
+          <p class="button">Heroku</p>
+          <p>Задеплою приложение, посмотрю логи.</p>
+        </div>     
+      </div>
+  
+      <div class="row text-center mt">         
+        <div class="col col-33">
+          <p class="button">IDE (RubyMine)</p>
+          <p>Vim, Sublime - тоже балуюсь.</p>
+        </div>
+        <div class="col col-33">
+          <p class="button">AWS</p>
+          <p>Хранилище на амазоне — прекрасное решение проблем.</p>
+        </div>
+        <div class="col col-33">
+          <p class="button">VPS</p>
+          <p>Настрою Nginx и Passenger.</p>
+        </div>
+      </div>
+  
+      <div class="row no_under text-center mt">
+        <div class="col col-100">
+          <p class="button">GitHub</p>
+          <p>Запушу приложение, создам ветку и смержу её.</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt">
+    <div class="col col-100"> 
+      <ins><h3>Опыт работы</h3></ins>
+        <ul>
+          <li>Ruby developer in Local Labs (commercial development experience in a US company for 2 year)</li>
+        </ul>
+    </div>
+  </div>
+  
+  <div class="row mt">
+    <div class="col col-100"> 
+      <ins><h3>Личные навыки</h3></ins>
+        <ul>
+          <li>Умение работать в режиме многозадачности</li>
+          <li>Ответственный и исполнительный</li>
+          <li>Имею большое желание учиться и развиваться</li>
+          <li>Добросовестный и готов работать на результат.</li>
+        </ul>
+    </div>
+  </div>
+</div>
 </body>
 </html>
